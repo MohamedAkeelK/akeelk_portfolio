@@ -9,11 +9,21 @@
   - before and after reveal animations for elements when scrolling
 
 ## Nav Bar
+logo is transparent and fixed 
+  animte smaller on scroll 
   - Logo
-
   - Home
   - About
   - Projects
   - Contact 
 
 ## Hero Section
+left side 
+  hero text
+  small paragraph 
+
+right side , animating picture 
+
+
+
+
