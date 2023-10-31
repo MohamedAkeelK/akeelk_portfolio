@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 2%;
+  background-color: rgb(9, 14, 34);
+}
+
+.logo-ctr > a{
+  text-decoration: none;
+  font-size: 2rem;
+  color: rgb(48, 208, 48)
+}
+
+
+.logo-ctr > a:hover {
+  color:rgb(255, 255, 255)
+}
+
+.nav-links-ctr {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.nav-link a{
+  text-decoration: none;
+  color: rgb(48, 208, 48)
+}
+
+.nav-link a:hover {
+  color:rgb(255, 255, 255);   
+}
