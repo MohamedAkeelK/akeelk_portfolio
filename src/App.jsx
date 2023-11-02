@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import Loading from "./components/Loading/Loading";
+import Hero from "./components/Hero/Hero.jsx";
 
 import { useEffect, useState } from "react";
 
@@ -13,9 +14,10 @@ function App() {
   }
 
   return (
-    <>
+    <div className="app">
       <Navbar />
-    </>
+      <Hero />
+    </div>
   );
 }
 

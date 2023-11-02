@@ -1,0 +1,30 @@
+
+.hero {
+  width: 100%;
+  height: 80vh;
+  padding: 20px;
+  display: flex;
+  background-color: rgb(9, 14, 34);
+  /* border: 1px solid rgb(72, 0, 255); */
+
+}
+
+.lottieCoder {
+  width: 50%;
+  /* border: 1px solid rgb(38, 0, 255); */
+
+}
+
+.rightHeroText {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white
+  /* border: 1px solid red; */
+}
+
+.rightHeroText >h1 {
+  font-size: 4rem;
+}
