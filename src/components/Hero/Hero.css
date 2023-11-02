@@ -1,30 +1,69 @@
 
 .hero {
+  /* margin-top: 4%; */
   width: 100%;
-  height: 80vh;
-  padding: 20px;
-  display: flex;
+  height: 100vh;
+  /* padding: 20px 20px 0px 20px; */
+  display: flex; 
+  flex-direction: column;
+  position: relative;
   background-color: rgb(9, 14, 34);
+  /* background-image: linear-gradient(to right top, #08154a, #061440, #061336, #09112c, #090e22); */
   /* border: 1px solid rgb(72, 0, 255); */
 
 }
 
 .lottieCoder {
-  width: 50%;
+  width: 35%;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
   /* border: 1px solid rgb(38, 0, 255); */
 
 }
 
 .rightHeroText {
+  height: 100%;
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  color: white
+  align-items: left;
+  /* color: rgb(0, 0, 0); */
+  color: rgb(255, 255, 255);
+  /* color: rgb(48, 208, 48); */
+
+  /* border: 1px solid white; */
+  padding-left: 10%;
+  /* background-color: rgb(255, 255, 255); */
+  /* background-color: rgb(9, 14, 34); */
+
   /* border: 1px solid red; */
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
 }
 
-.rightHeroText >h1 {
-  font-size: 4rem;
+.hero-big-text {
+  font-size: 5rem;
+  font-family: 'Monoton', sans-serif;
+
+  z-index: 3;
+  margin-bottom: 10px;
+  /* color: rgb(48, 208, 48); */
+
+
 }
+
+.hero-small-text {
+  font-size: 1.3rem;
+  color: rgb(48, 208, 48);
+
+font-family: 'Urbanist', sans-serif;
+
+}
+

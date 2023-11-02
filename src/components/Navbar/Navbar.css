@@ -1,15 +1,25 @@
 .navbar {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1% 2%;
-  background-color: rgb(9, 14, 34);
+  padding: 20px 20px;
+  /* background-color: rgb(251, 251, 251); */
+  background-color: rgba(9, 14, 34, 0.357);
+  /* border-bottom: 0.1px solid white; */
+  font-family: monospace;
 }
 
 .logo-ctr > a{
   text-decoration: none;
   font-size: 2rem;
-  color: rgb(48, 208, 48)
+  color: rgb(48, 208, 48);
+  font-family: 'Monoton', sans-serif;
+
 }
 
 
@@ -22,13 +32,24 @@
   display: flex;
   justify-content: space-evenly;
   list-style: none;
+  padding: 0px 20px;
+  /* font-weight: bold; */
 }
 
 .nav-link a{
   text-decoration: none;
-  color: rgb(48, 208, 48)
+  /* color: rgb(48, 208, 48); */
+  color: whitesmoke;
+
+  font-size: 1rem;
+  /* color: rgb(0, 0, 0) */
+
 }
 
 .nav-link a:hover {
   color:rgb(255, 255, 255);   
+}
+
+.nav-link-slash {
+  color:rgb(48, 208, 48);
 }
