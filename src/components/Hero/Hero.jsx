@@ -1,6 +1,6 @@
 import React from "react";
 import Lottie from "lottie-react";
-import animationData from "../../assets/coder.json";
+import animationData from "../../assets/coder2.json";
 import "./Hero.css";
 
 export default function Hero() {
