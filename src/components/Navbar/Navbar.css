@@ -5,11 +5,11 @@
   left: 0;
   width: 100vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 20px 20px;
   /* background-color: rgb(251, 251, 251); */
-  background-color: rgba(9, 14, 34, 0.357);
+  background-color: rgba(0, 0, 0, 0.066);
   /* border-bottom: 0.1px solid white; */
   font-family: monospace;
 }
@@ -20,6 +20,10 @@
   color: rgb(48, 208, 48);
   font-family: 'Monoton', sans-serif;
 
+}
+
+.nav-logo-dash {
+  color: plum
 }
 
 
@@ -52,4 +56,13 @@
 
 .nav-link-slash {
   color:rgb(48, 208, 48);
+}
+
+.nav-contact-button {
+  background-color: rgb(46, 175, 46);
+  color:white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
 }

@@ -5,7 +5,9 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="logo-ctr">
-        <a href="">AkeelWebdev.Tech._</a>
+        <a href="">
+          AkeelWebdev.Tech<span className="nav-logo-dash">._</span>
+        </a>
       </div>
 
       <ul className="nav-links-ctr">
@@ -16,20 +18,18 @@ export default function Navbar() {
         </li>
         <li className="nav-link">
           <a href="">
-            <span className="nav-link-slash">// </span>About
+            <span className="nav-link-slash">// </span>Expertise
           </a>
         </li>
         <li className="nav-link">
           <a href="">
-            <span className="nav-link-slash">// </span>My Work
-          </a>
-        </li>
-        <li className="nav-link">
-          <a href="">
-            <span className="nav-link-slash">// </span>Contact
+            <span className="nav-link-slash">// </span>Work
           </a>
         </li>
       </ul>
+      <a href="#" className="nav-contact-button">
+        Get in Touch
+      </a>
     </div>
   );
 }
