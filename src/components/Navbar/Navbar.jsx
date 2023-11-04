@@ -5,9 +5,10 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="logo-ctr">
-        <a href="">
-          AkeelWebdev.Tech<span className="nav-logo-dash">._</span>
-        </a>
+        {/* <a href=""> */}
+          <div className="nav-akeel-logo"></div>
+          {/* <span className="nav-logo-dash">._</span> */}
+        {/* </a> */}
       </div>
 
       <ul className="nav-links-ctr">

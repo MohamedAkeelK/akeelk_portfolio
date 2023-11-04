@@ -4,6 +4,7 @@
   top: 0;
   left: 0;
   width: 100vw;
+  max-height: 15vh                    ;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -15,12 +16,22 @@
 }
 
 .logo-ctr > a{
-  text-decoration: none;
-  font-size: 2rem;
-  color: rgb(48, 208, 48);
-  font-family: 'Monoton', sans-serif;
+  /* text-decoration: none; */
+  /* font-size: 2rem; */
+  /* color: rgb(48, 208, 48);
+  font-family: 'Monoton', sans-serif; */
 
 }
+
+.nav-akeel-logo {
+  width: 120px;
+  height: 80px;
+  background-image: url("../../../public/logo2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 .nav-logo-dash {
   color: plum
@@ -34,9 +45,9 @@
 .nav-links-ctr {
   width: 40%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   list-style: none;
-  padding: 0px 20px;
+  padding: 0px 3%;
   /* font-weight: bold; */
 }
 
@@ -65,4 +76,6 @@
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+
+  text-align: center;
 }
