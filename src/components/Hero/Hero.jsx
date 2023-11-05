@@ -7,8 +7,6 @@ import Navbar from "../Navbar/Navbar";
 export default function Hero() {
   return (
     <div className="hero">
-      <Navbar />
-
       <Lottie animationData={animationData} className="lottieCoder" />
       <div className="rightHeroText">
         <h1 className="hero-big-text">
