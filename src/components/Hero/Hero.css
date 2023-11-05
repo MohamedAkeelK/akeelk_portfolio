@@ -55,11 +55,13 @@ clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
   /* font-size: 4.5rem; */
   font-size: 6vw;
   font-family: 'Monoton', sans-serif;
-  width: 100%;
+  width: fit-content;
   text-align: left;
   z-index: 3;
   margin-bottom: 10px;
   /* color: rgb(48, 208, 48); */
+ /* background-color: rgba(0, 0, 0, 0.297); */
+
 
 
 }
@@ -67,8 +69,10 @@ clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
 .hero-small-text {
   font-size: 1.3rem;
   color: rgb(48, 208, 48);
-
-font-family: 'Urbanist', sans-serif;
+ font-family: 'Urbanist', sans-serif;
+ background-color: rgba(0, 0, 0, 0.297);
+ width: fit-content;
+ padding: 10px;
 
 }
 
@@ -83,7 +87,7 @@ font-family: 'Urbanist', sans-serif;
   }
   .hero-small-text {
     text-align: center;
-  }
+  } 
 }
 
 

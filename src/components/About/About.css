@@ -1,0 +1,21 @@
+.about-page {
+  padding-bottom: 20vh;
+}
+
+.expertise-title {
+  text-align: center;
+  padding: 20vh 0px;
+}
+
+.expertise-box-ctr {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.expertise-box {
+  width: 30%;
+  padding: 20px;
+  border: 1px solid black;
+}
