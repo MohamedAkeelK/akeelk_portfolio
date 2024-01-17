@@ -4,7 +4,12 @@ import "./About.css";
 export default function About() {
   return (
     <div className="about-page" id="About">
-      <h1 className="expertise-title">My Expertise</h1>
+      <h1 className="expertise-title">About</h1>
+      <div className="about-left">
+        <img src="../../../public/akeel.png" alt="" srcset="" width="350px" />
+      </div>
+      <div className="right"></div>
+      {/* <h1 className="expertise-title">About</h1>
       <div className="expertise-box-ctr">
         <div className="expertise-box expertise-box-1">
           <h1>Software Development</h1>
@@ -27,7 +32,7 @@ export default function About() {
             solutions using the Flutter framework.
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

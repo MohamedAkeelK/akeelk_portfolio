@@ -1,9 +1,17 @@
 .about-page {
   padding-bottom: 20vh;
   background-color: #1a191d;
+  height: 100vh;
+  color: white;
 }
 
 .expertise-title {
+  text-align: center;
+  padding: 15vh 0px;
+  color:whitesmoke
+}
+
+/* .expertise-title {
   text-align: center;
   padding: 20vh 0px;
   color:whitesmoke
@@ -20,7 +28,6 @@
 
 .expertise-box {
   width: 30%;
-  /* padding: 20px; */
   border: 1px solid whitesmoke;
   text-align: center;
   height: 50vh;
@@ -41,4 +48,4 @@
 
 .expertise-box h1, .expertise-box p {
   padding: 20px;
-}
+} */

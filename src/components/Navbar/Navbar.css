@@ -1,6 +1,6 @@
 .navbar {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   top: 0;
@@ -29,7 +29,9 @@
   font-size: 2rem;
   color: #fff;
   text-align: center;
-  background: #e8e8e8;
+  /* background: #e8e8e8; */
+  background-color: #42c1a5;
+
 }
 
 
@@ -80,7 +82,9 @@
 .resume-btn a {
   text-decoration: none;
   color: white;
-  background-color: green;
+  /* background-color: green; */
+  background-color: #42c1a5;
+
   padding: 5px 10px;
   border-radius: 4px;
 
@@ -94,6 +98,7 @@
 /* CSS */
 .button-54 {
   font-family: "Open Sans", sans-serif;
+  /* background-color: #42c1a5; */
   font-size: 16px;
   letter-spacing: 2px;
   text-decoration: none;
