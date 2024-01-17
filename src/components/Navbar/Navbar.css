@@ -1,81 +1,123 @@
 .navbar {
-  z-index: 10;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  max-height: 15vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;  
+  width: 100%;
+  z-index: 2000;
+  color: white;
+  background-color: black;
   padding: 20px 20px;
-  /* background-color: rgb(251, 251, 251); */
-  background-color: rgba(0, 0, 0, 0.352);
-  /* border-bottom: 0.1px solid white; */
-  font-family: monospace;
-}
-
-.logo-ctr > a{
-  /* text-decoration: none; */
-  /* font-size: 2rem; */
-  /* color: rgb(48, 208, 48);
-  font-family: 'Monoton', sans-serif; */
 
 }
 
-.nav-akeel-logo {
-  width: 120px;
-  height: 80px;
-  background-image: url("../../../public/logo2.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.nav-left {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding-left: 20px;
 }
 
 
-.nav-logo-dash {
-  color: plum
-}
-
-
-.logo-ctr > a:hover {
-  color:rgb(255, 255, 255)
-}
-
-.nav-links-ctr {
-  width: 40%;
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  padding: 0px 3%;
-  /* font-weight: bold; */
-}
-
-.nav-link a{
-  text-decoration: none;
-  /* color: rgb(48, 208, 48); */
-  color: whitesmoke;
-
-  font-size: 1rem;
-  /* color: rgb(0, 0, 0) */
-
-}
-
-.nav-link a:hover {
-  color:rgb(255, 255, 255);   
-}
-
-.nav-link-slash {
-  color:rgb(48, 208, 48);
-}
-
-.nav-contact-button {
-  background-color: rgb(46, 175, 46);
-  color:white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-
+.circle {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: #fff;
   text-align: center;
+  background: #e8e8e8;
 }
+
+
+.text-a{
+  text-decoration: none !important;
+  color: black;
+}
+
+.logo-image {
+  border-radius: 50%;
+}
+
+.nav-logo-text {
+  font-size: 1.4rem;
+  margin-left: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-links {
+  display: flex;
+
+  /* justify-content: center;
+  align-items: center; */
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 0px 20px;
+  color: white;
+}
+
+.navbar-social-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  /* justify-content: space-between; */
+  /* width: 250px; */
+  /* padding: 0px 20px; */
+}
+
+.navbar-social-links li {
+    padding: 0px 10px;
+
+  /* padding-left: 40px; */
+}
+
+.resume-btn a {
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  padding: 5px 10px;
+  border-radius: 4px;
+
+}
+
+.social-icon {
+  font-size: 1.6rem;
+}
+
+
+/* CSS */
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+

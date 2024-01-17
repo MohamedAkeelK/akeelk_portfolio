@@ -1,36 +1,59 @@
 import React from "react";
 import "./Navbar.css";
+import { FaGithub } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
 
 export default function Navbar() {
   return (
-    <div className="navbar">
-      <div className="logo-ctr">
-        {/* <a href=""> */}
-          <div className="nav-akeel-logo"></div>
-          {/* <span className="nav-logo-dash">._</span> */}
-        {/* </a> */}
+    <nav className="navbar">
+      <div className="nav-left">
+        <a href="#Homepage">
+          <div className="circle">
+            <p className="text-a">A</p>
+          </div>
+        </a>
+
+        <h6 className="nav-logo-text"></h6>
       </div>
 
-      <ul className="nav-links-ctr">
-        <li className="nav-link">
-          <a href="">
-            <span className="nav-link-slash">// </span>Home
+      <ul className="nav-links">
+        <li>
+          <a className="nav-link" href="#Homepage">
+            Home
           </a>
         </li>
-        <li className="nav-link">
-          <a href="">
-            <span className="nav-link-slash">// </span>Expertise
+        <li>
+          <a className="nav-link" href="#About">
+            About
           </a>
         </li>
-        <li className="nav-link">
-          <a href="">
-            <span className="nav-link-slash">// </span>Work
+        <li>
+          <a className="nav-link" href="#Works">
+            Works
+          </a>
+        </li>
+        <li>
+          <a className="nav-link" href="#Contact">
+            Contact
           </a>
         </li>
       </ul>
-      <a href="#" className="nav-contact-button">
-        Get in Touch
-      </a>
-    </div>
+
+      <ul className="navbar-social-links">
+        <li>
+          <CiLinkedin className="social-icon" />
+        </li>
+
+        <li>
+          <FaGithub className="social-icon" />
+        </li>
+
+        <li className="resume-btn">
+          <a href="#" className="button-54">
+            Resume
+          </a>
+        </li>
+      </ul>
+    </nav>
   );
 }
