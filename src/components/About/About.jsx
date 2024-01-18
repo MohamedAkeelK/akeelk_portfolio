@@ -4,11 +4,21 @@ import "./About.css";
 export default function About() {
   return (
     <div className="about-page" id="About">
-      <h1 className="expertise-title">About</h1>
-      <div className="about-left">
-        <img src="../../../public/akeel.png" alt="" srcset="" width="350px" />
+      <h1 className="expertise-title">About Me</h1>
+      <div className="about-ctr">
+        <div className="about-left-img"></div>
+        <div className="about-text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo,
+          fugiat? Eveniet blanditiis pariatur eos architecto, aperiam possimus
+          ipsa neque consequuntur fuga consectetur, iste quisquam illo quod
+          deserunt delectus eaque enim! Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Provident in nemo consectetur possimus error
+          aliquid, illum fugit quia libero, velit molestias illo ullam at porro
+          vero sequi nisi asperiores! Blanditiis.
+        </div>
+        <div className="right"></div>
       </div>
-      <div className="right"></div>
+
       {/* <h1 className="expertise-title">About</h1>
       <div className="expertise-box-ctr">
         <div className="expertise-box expertise-box-1">
