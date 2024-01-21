@@ -16,7 +16,7 @@ export default function Hero() {
           <br /> name is Akeel.
         </h1>
         <p className="hero-small-text">
-          dedicated and versatile Full-Stack Developer driven to bring impactful
+          Dedicated and versatile Full-Stack Developer driven to bring impactful
           and innovative solutions to the fore. I love creating beautiful user
           experiences.
         </p>
