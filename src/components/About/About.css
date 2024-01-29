@@ -58,7 +58,7 @@ width: 50%;
 }
 
 .personal-photo {
-  background-image: url("../../../public/logo6.png");
+  background-image: url("../../../logo6.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 400px;
@@ -68,7 +68,7 @@ width: 50%;
 
 .bottom-about-box {
   /* background-color: aqua; */
-  padding-top: 80px;
+  padding-top: 30px;
   width: 100vw;
   display: flex;
   justify-content: space-evenly;
@@ -92,6 +92,6 @@ width: 50%;
 .about-icon > * {
   /* font-size: 3rem; */
   /* width: 100%; */
-  font-size: 5rem;
+  font-size: 4rem;
   color: aqua
 }
