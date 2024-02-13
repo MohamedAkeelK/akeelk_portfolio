@@ -12,7 +12,7 @@ import { useEffect, useState } from "react";
 function App() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    setTimeout(() => setLoading(false), 2000);
+    setTimeout(() => setLoading(false), 1000);
   }, []);
   if (loading) {
     return <Loading />;
@@ -36,8 +36,8 @@ function App() {
       <section id="Works3">
         <Works2 className="works-section" />
       </section>
-      <section>
-        <Contact />
+      <section id="Contact">
+        <Contact className="contact-section"/>
       </section>
     </div>
   );

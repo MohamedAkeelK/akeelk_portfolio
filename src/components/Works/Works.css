@@ -1,71 +1,68 @@
-.works-box {
-  /* border: 80px solid red;
-  width: 100vw;
-  height: 100vh;
-  padding: 40px; */
-}
 
 #Works {
   /* width: 100vw; */
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5%;
+  padding: 5%; */
 
 }
 
-
-.works-card {
-  margin-top: 60px;
-  width: 80%;
-  height: 80%;
-
-  display: flex;
-  justify-content: center;
-  /* align-items: center; */
-  padding: 20px;
-  /* background-color: rgb(155, 155, 38); */
-}
-
-.works-img-ctr{
-  width: 60%;
-
-  background-image: url("../../../public/logo6.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.works-img-ctr img{
-  /* padding: 20px;
-  background-color: aqua;
-  border: 20px solid red;  */
-}
-
-.works-text-card {
-  width: 50%;
-  height: 50%;
-  background-color: beige;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 60px;
-}
-
-.works-text-card > p {
-  padding-bottom: 30px;
-
-}
-
-
-.works-icon-list {
-  /* width: 100%; */
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
+.works-section {
   
 }
 
-.works-icon-list > li {
-  padding-right: 20px;
+.works-cards-ctr {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly
+}
+
+.works-title {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+
+
+.works-card {
+  width: 280px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.works-card-img {
+  background: url("../../../public/logo5.png");
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+.works-card-text {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.works-card-text >* {
+  padding-bottom: 15px;
+} 
+
+.works-tech-stack-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.works-tech-stack-list li {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
 }

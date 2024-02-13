@@ -4,27 +4,53 @@ import "./Works.css";
 function Works() {
   return (
     <>
-      <div className="works-card">
-        <div className="works-img-ctr">
+      <h1 className="works-title">My Works</h1>
+      <div className="works-cards-ctr">
+        <div className="works-card">
+          <div className="works-card-img"></div>
+          <div className="works-card-text">
+            <h3 className="works-card-title">Name of Project</h3>
+            <p>
+              a breif description of project .... Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit.
+            </p>
+            <ul className="works-tech-stack-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+            </ul>
+          </div>
         </div>
-        <div className="works-text-card">
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Voluptatibus voluptate possimus beatae tempore odit sequi nisi optio
-            dolor, sunt commodi, odio vel corrupti non reiciendis perspiciatis,
-            omnis quia distinctio temporibus!
-          </p>
-          <ul className="works-icon-list">
-            <li>
-              <img src="" alt="" />
-            </li>
-            <li>
-              <img src="" alt="" />
-            </li>
-            <li>
-              <img src="" alt="" />
-            </li>
-          </ul>
+        <div className="works-card">
+          <div className="works-card-img"></div>
+          <div className="works-card-text">
+            <h3 className="works-card-title">Name of Project</h3>
+            <p>
+              a breif description of project .... Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit.
+            </p>
+            <ul className="works-tech-stack-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="works-card">
+          <div className="works-card-img"></div>
+          <div className="works-card-text">
+            <h3 className="works-card-title">Name of Project</h3>
+            <p>
+              a breif description of project .... Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit.
+            </p>
+            <ul className="works-tech-stack-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+            </ul>
+          </div>
         </div>
       </div>
     </>
